@@ -1,29 +1,28 @@
 .main-header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    background-color: #3b5999;
-}
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #3b5999;
+  align-items: center; }
 
 .left-header-content {
-    padding: 0 10px;
-}
+  padding: 0 10px; }
+
+.header-logo {
+  width: 50px;
+  height: 50px; }
 
 .right-header-content {
-    padding: 0 10px;
-}
+  padding: 0 10px; }
 
 .header-menu {
-    display: inline-block;
-    list-style: none;
-}
+  display: inline-block;
+  list-style: none; }
 
 .header-menu-item {
-    display: inline-block;
-    padding: 0 5px;
-}
+  display: inline-block;
+  padding: 0 5px; }
 
 .header-menu-link {
-    color: white;
-    text-decoration: none;
-}
+  color: white;
+  text-decoration: none; }

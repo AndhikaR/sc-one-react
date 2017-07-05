@@ -1,12 +1,13 @@
 import React from 'react';
 import './header.css';
+import logo from '../assets/sc-logo.png'
 
 export class Header extends React.Component {
 	render () {
 		return (
 			<header className="main-header">
                 <div className="left-header-content">
-                    <img src="" alt="" className="header-logo"/>
+                    <img src={logo} alt="" className="header-logo"/>
                 </div>
                 <div className="right-header-content">
                     <ul className="header-menu">
